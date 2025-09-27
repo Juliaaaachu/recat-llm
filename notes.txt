@@ -1,0 +1,9 @@
+
+First Iteration: 
+- Sample Prompts Output:
+    -    Prompt: Think of a time recently when your partner said something that made you feel truly valued or understood — express your gratitude for their words and how they uplifted you in that moment.
+    -    Prompt: Think back to a recent moment when you and your partner shared laughter or a deep conversation; can you express your gratitude for how that time together strengthened your bond and made you feel truly connected?
+    -    Prompt: Think back to a recent moment when your partner held you close or offered a comforting touch; how did it make you feel? Express your gratitude for that warmth and connection, and share why those moments of physical affection mean so much to your
+- Personal Evaluation:
+    - Sentences are too long - the key is to help them "recollect" that specific memory. Felt like we don't have to say "express your gratitude" since that will be already given in the UI of the app 
+    - "recent moments" still sound vague. Might need to provide some examples on how do we actually elicit certain moments and memories. Perhaps through examples? more situated contexts? the five senses?

@@ -1,0 +1,212 @@
+[
+  {
+    "love_language": "Words of Affirmation",
+    "prompt": "Think back to a moment this week when your partner said something that made you feel truly valued or loved. How did their words impact you, and how can you express your appreciation for their thoughtfulness?",
+    "scores": {
+      "love_language_alignment": 9,
+      "emotional_engagement": 8,
+      "specificity_depth": 9,
+      "actionability": 8,
+      "app_context_fit": 7,
+      "tone_appropriateness": 8
+    },
+    "overall_score": 8.166666666666666,
+    "feedback": "The prompt aligns well with the 'Words of Affirmation' love language by encouraging partners to reflect on meaningful verbal interactions. It promotes emotional engagement through recalling personal moments of feeling valued or loved. The level of specificity is high as it asks for specific instances, which encourages deeper reflection. The prompt is actionable, though it could be slightly clearer in terms of guiding users on how to express their gratitude after reflection. It fits reasonably well with the app's context but could better integrate the pet-caring or gamification aspect to make it more engaging within the app's unique framework. The tone is warm and encourages introspection, fitting well with the app's supportive and friendly nature.\n\nSuggestions: Add an element that ties back to the virtual pet or game aspect, such as suggesting that expressing this gratitude could 'earn a reward for your pet.' Also, offer examples of how one might express appreciation, such as crafting a note or planning a surprise, to enhance actionability."
+  },
+  {
+    "love_language": "Words of Affirmation",
+    "prompt": "Think back to a time recently when your partner said something that lifted your spirits or made you feel valued; how did their words impact you, and what specific feelings did it evoke that you can express your gratitude for?",
+    "scores": {
+      "love_language_alignment": 9,
+      "emotional_engagement": 8,
+      "specificity_depth": 9,
+      "actionability": 8,
+      "app_context_fit": 7,
+      "tone_appropriateness": 8
+    },
+    "overall_score": 8.166666666666666,
+    "feedback": "The prompt is closely aligned with the love language of Words of Affirmation, as it encourages the user to reflect on specific verbal expressions that were meaningful to them. It is emotionally engaging, prompting the user to think deeply about how their partner's words made them feel. The specificity and depth are strong because it pushes the user to recall specific instances and the emotional impact of those moments. Actionability is relatively high, as the prompt directs users clearly to think about a recent event and their feelings. However, the fit within the context of a gamified pet-caring app is somewhat limited. The tone is warm and encouraging, maintaining the feel of a friendly guide.\n\nSuggestions: To improve app context fit, consider incorporating an element that ties back to the shared activity of caring for the pet. For example, users might reflect on how their partner's encouraging words inspired them to be a better pet caregiver. Additionally, slightly simplifying the language could make the prompt more accessible and enhance actionability."
+  },
+  {
+    "love_language": "Words of Affirmation",
+    "prompt": "Think of a moment recently when your partner said something that lifted your spirits or made you feel special; how did their words impact you? Take a moment to thank them for their kind affirmation and share how it made you feel valued.",
+    "scores": {
+      "love_language_alignment": 9,
+      "emotional_engagement": 8,
+      "specificity_depth": 8,
+      "actionability": 9,
+      "app_context_fit": 8,
+      "tone_appropriateness": 9
+    },
+    "overall_score": 8.5,
+    "feedback": "The prompt effectively aligns with the 'Words of Affirmation' love language by focusing on uplifting and affirming communication. It invites users to recall specific moments, encouraging depth and reflection. The emotional engagement is strong as it asks users to consider the impact of their partner's words, fostering a warm and personal connection. The prompt is actionable, providing clear guidance on what to do: thank the partner and share how it made the user feel. Its fit within the app's context is good but not perfect, as it doesn't directly incorporate the gamified or pet-care aspects. The tone is appropriately warm and supportive.\n\nSuggestions: To enhance app context fit, consider integrating the virtual pet as part of the gratitude sharing, such as suggesting the user could tell their partner how their words also made the pet feel joyful or helped in a playful way. Additionally, adding a playful twist or challenge could align better with the app's gamified nature."
+  },
+  {
+    "love_language": "Quality Time",
+    "prompt": "Think back to our last cozy evening together\u2014what small, cherished moment made you feel most connected? Share your gratitude for that time and how it strengthened our bond.",
+    "scores": {
+      "love_language_alignment": 9,
+      "emotional_engagement": 9,
+      "specificity_depth": 8,
+      "actionability": 9,
+      "app_context_fit": 8,
+      "tone_appropriateness": 9
+    },
+    "overall_score": 8.666666666666666,
+    "feedback": "The prompt aligns well with the Quality Time love language by encouraging reflection on a shared experience. It fosters emotional engagement by asking for a cherished moment and highlights the emotional bond between partners. The prompt is specific in asking for a particular time, which can help elicit detailed and meaningful responses. It is actionable as it clearly guides the user on what to write about. The fit within the app's context is good, as reflecting on shared moments can nurture the virtual pet through the enhancement of the couple's real-life relationship. The tone is warm and encouraging, suitable for a couples app.\n\nSuggestions: To enhance the app context fit, consider integrating a statement about how sharing these moments contributes to the virtual pet's well-being. Adding a playful element that ties gratitude notes to pet care might further strengthen the connection between the app features and the prompt."
+  },
+  {
+    "love_language": "Quality Time",
+    "prompt": "Think about a recent moment when you spent time together \u2014 perhaps a simple walk or a cozy evening in. How did that time make you feel connected, and what did you appreciate most about being in each other\u2019s company?",
+    "scores": {
+      "love_language_alignment": 9,
+      "emotional_engagement": 8,
+      "specificity_depth": 7,
+      "actionability": 9,
+      "app_context_fit": 8,
+      "tone_appropriateness": 9
+    },
+    "overall_score": 8.333333333333334,
+    "feedback": "This prompt effectively aligns with the Quality Time love language by encouraging couples to reflect on a shared experience. It is emotionally engaging because it asks users to consider their feelings of connection and appreciation, fostering intimacy and affirming their relationship. The prompt is quite actionable; it provides clear instructions for reflection. However, it could offer more guidance to deepen the specificity of the responses, encouraging users to elaborate on particular details of the moment spent together. In the context of the app, the prompt is fitting, promoting relationship-building activities tied into the shared responsibility of caring for a virtual pet. The tone is warm and encouraging, making it accessible and friendly.\n\nSuggestions: To increase specificity, the prompt could prompt users to recall and describe specific details during the time spent together (e.g., what they discussed, sights they observed on their walk, or the atmosphere during their evening in). Adding a suggestion to relate these moments to their shared virtual pet experience might strengthen the app context fit, such as mentioning how their pet 'enjoyed' or 'reacted' to their time together."
+  },
+  {
+    "love_language": "Quality Time",
+    "prompt": "Think back to a recent moment when you and your partner enjoyed each other's company, whether it was a cozy evening in or a fun adventure outside. How did that time together make you feel connected, and what specific things did they do that made that moment special?",
+    "scores": {
+      "love_language_alignment": 9,
+      "emotional_engagement": 8,
+      "specificity_depth": 8,
+      "actionability": 9,
+      "app_context_fit": 8,
+      "tone_appropriateness": 9
+    },
+    "overall_score": 8.5,
+    "feedback": "The prompt effectively aligns with the Quality Time love language by encouraging participants to reflect on shared moments. It emotionally engages users by asking them to think about the feeling of connection and the specific actions that made moments special. The prompt is actionable as it provides clear guidance on what users should reflect on. The context fits well with the app's focus on nurturing relationships through shared activities, even if it doesn't directly relate to the virtual pet aspect. The tone is warm and encouraging, suitable for the app's purpose.\n\nSuggestions: To improve, the prompt could include a direct tie-in with the virtual pet aspect of the app to better fit the app's theme. For example, asking how the shared activity contributed to their relationship and the care of their virtual pet might make the connection more explicit. Additionally, encouraging users to think of 'the most memorable moment' in recent times could enhance specificity and depth."
+  },
+  {
+    "love_language": "Receiving Gifts",
+    "prompt": "Think back to the last time your partner surprised you with a gift that made you feel truly special; what was it about that moment that touched your heart, and how did it reflect their understanding of you? Express your gratitude for their thoughtfulness and the joy that gift brought into your life.",
+    "scores": {
+      "love_language_alignment": 9,
+      "emotional_engagement": 9,
+      "specificity_depth": 8,
+      "actionability": 8,
+      "app_context_fit": 7,
+      "tone_appropriateness": 9
+    },
+    "overall_score": 8.333333333333334,
+    "feedback": "The prompt effectively aligns with the love language of 'Receiving Gifts' by asking the user to reflect on a specific gift that was meaningful. It encourages users to think about why the gift was significant, thereby engaging both emotion and memory. The prompt is emotionally engaging and the tone is appropriate, warm, and inviting for a couple's app. However, it could be improved by slightly enhancing its fit within the gamified and pet-caring context of the app.\n\nSuggestions: To better integrate the prompt into the app's context, consider adding a tie-in with the virtual pet or a playful element, such as making the note part of a reward system for the pet. Also, provide a small intro or example to make it more actionable for users who might struggle with starting their reflection."
+  },
+  {
+    "love_language": "Receiving Gifts",
+    "prompt": "Think back to the last gift your partner gave you, no matter how big or small \u2014 what did it mean to you at that moment, and how did it make you feel cherished? Let them know how their thoughtfulness brightened your day and deepened your connection.",
+    "scores": {
+      "love_language_alignment": 9,
+      "emotional_engagement": 8,
+      "specificity_depth": 8,
+      "actionability": 9,
+      "app_context_fit": 7,
+      "tone_appropriateness": 8
+    },
+    "overall_score": 8.166666666666666,
+    "feedback": "The prompt aligns well with the 'Receiving Gifts' love language by focusing on the meaning and emotional impact of a gift received. It encourages users to reflect on the emotional significance of the gift, fostering a deeper connection. The prompt is emotionally engaging, inviting partners to share feelings of being cherished. It also guides users to express gratitude by highlighting how the gift brightened their day, which is actionable. The tone is mostly appropriate, warm, and inviting, suitable for a couples app. However, there could be a stronger connection to the gamified and pet-caring elements of the app to enhance fit.\n\nSuggestions: To improve the app context fit, integrate a playful or gamified element, such as tying the gift memory to a specific in-app event or achievement related to caring for the virtual pet. For example, suggest that users remember how their partner\u2019s gift helped them win a pet challenge or improved their virtual pet\u2019s happiness, which could reinforce the gamified aspect of ReCat."
+  },
+  {
+    "love_language": "Receiving Gifts",
+    "prompt": "Think of a recent gift your partner gave you that brightened your day \u2014 how did it make you feel in that moment, and why do you appreciate their thoughtfulness? Cherish that feeling and share your heartfelt thanks for their generosity and love.",
+    "scores": {
+      "love_language_alignment": 9,
+      "emotional_engagement": 8,
+      "specificity_depth": 8,
+      "actionability": 8,
+      "app_context_fit": 7,
+      "tone_appropriateness": 9
+    },
+    "overall_score": 8.166666666666666,
+    "feedback": "The prompt effectively focuses on the receiving gifts love language by asking users to recall a specific instance when a gift from their partner brought them joy. It encourages reflection on feelings and appreciation, tapping into emotional engagement. The question about how the gift made them feel and why they appreciate the thoughtfulness adds depth and specificity, nudging users towards more personal and detailed responses. Additionally, the prompt's wording is warm and friend-like, which is suitable for the app's tone. However, the connection to the app's gamified, pet-caring context could be stronger, and the actionable aspect, while clear, could be supported with a gentle nudge towards sharing or celebrating in the app environment.\n\nSuggestions: To enhance app context fit, consider suggesting partners share their gratitude note as a way to earn rewards for their virtual pet, tying in the gamification element. You could also add a playful element by suggesting they 'fetch' a memory of a previous gift that had a similar impact, contributing to both specificity and engagement."
+  },
+  {
+    "love_language": "Acts of Service",
+    "prompt": "Think back to a recent moment when your partner took care of a task or chore for you, perhaps without you even having to ask. How did that gesture make you feel, and why are you grateful for their support and thoughtfulness?",
+    "scores": {
+      "love_language_alignment": 9,
+      "emotional_engagement": 8,
+      "specificity_depth": 9,
+      "actionability": 9,
+      "app_context_fit": 8,
+      "tone_appropriateness": 9
+    },
+    "overall_score": 8.666666666666666,
+    "feedback": "The prompt is well-aligned with the 'Acts of Service' love language, as it directly asks the user to reflect on a task or chore their partner completed. It engages users emotionally by encouraging them to contemplate their feelings of gratitude and the support provided by their partner. The prompt asks for specific memories, enhancing depth and specificity, while remaining clear and actionable. It fits relatively well within the app's context, as it encourages reflection which can foster relationship growth and by extension, could indirectly aid in the pet-caring aspect. The tone is warm and friendly, making it approachable for users.\n\nSuggestions: To enhance the app fit, consider including a direct connection to the virtual pet, such as reflecting on how such acts of service help in managing the pet-caring responsibilities. Additionally, incorporating a fun, playful element in the prompt keeping the gamified aspect of the app might further enhance user engagement."
+  },
+  {
+    "love_language": "Acts of Service",
+    "prompt": "Think back to a time recently when your partner did something for you that made your day easier or brought you comfort\u2014what was it, and how did it impact you? Take a moment to share your gratitude for their kindness and the thoughtful gesture.",
+    "scores": {
+      "love_language_alignment": 9,
+      "emotional_engagement": 8,
+      "specificity_depth": 8,
+      "actionability": 9,
+      "app_context_fit": 7,
+      "tone_appropriateness": 9
+    },
+    "overall_score": 8.333333333333334,
+    "feedback": "The prompt appropriately targets the 'Acts of Service' love language by asking users to reflect on a specific time when their partner made their day easier or brought them comfort through an action. It encourages users to recognize and communicate gratitude for these acts, which aligns well with the love language. The prompt is emotionally engaging and inspires personal reflection, though there is room to deepen the emotional impact by encouraging more specific memories. It is clear and actionable, providing a straightforward task for the user to express gratitude, but could potentially integrate the app's gamified and pet-caring aspect more explicitly. The tone is warm and encouraging, suitable for fostering a friendly atmosphere.\n\nSuggestions: To enhance the app context fit, consider incorporating the couples' virtual pet into the prompt. For example, suggest how acts of service might benefit their virtual pet or relate the gratitude task to their shared pet-care goals. Additionally, prompt users to share a specific story or example, perhaps by asking what exactly their partner did and why it made a difference, to increase the specificity and emotional depth."
+  },
+  {
+    "love_language": "Acts of Service",
+    "prompt": "Think back to a recent moment when your partner took the time to help you with a task or lighten your load\u2014how did their effort make you feel? Write a heartfelt thank-you note, letting them know how much their support means to you.",
+    "scores": {
+      "love_language_alignment": 9,
+      "emotional_engagement": 8,
+      "specificity_depth": 8,
+      "actionability": 9,
+      "app_context_fit": 8,
+      "tone_appropriateness": 9
+    },
+    "overall_score": 8.5,
+    "feedback": "The prompt effectively targets the 'Acts of Service' love language by asking users to reflect on how their partner helped them. It encourages emotional engagement by focusing on feelings and appreciation. The prompt is specific enough to lead users to think of particular instances and express sincere gratitude. It is clear and actionable, providing a straightforward task for users to complete. The fit within the app context is good as it ties into nurturing relationships and the shared experience of caring for a virtual pet, although it could be more playful. The tone is appropriately warm and encouraging, making it approachable and friendly.\n\nSuggestions: To enhance app context fit, consider tying the prompt more explicitly to the idea of nurturing a virtual pet or the gamified aspect of the app. For example, suggest that by writing the note, they are 'feeding' or 'caring for' their virtual pet, which thrives on acts of gratitude. This could create a more cohesive experience within the game framework."
+  },
+  {
+    "love_language": "Physical Touch",
+    "prompt": "Think back to a moment recently when you felt truly connected to your partner through a simple touch, like a warm hug or holding hands; how did it make you feel, and what does that moment say about your love for them?",
+    "scores": {
+      "love_language_alignment": 9,
+      "emotional_engagement": 8,
+      "specificity_depth": 9,
+      "actionability": 9,
+      "app_context_fit": 8,
+      "tone_appropriateness": 9
+    },
+    "overall_score": 8.666666666666666,
+    "feedback": "The prompt is well-aligned with the physical touch love language by asking users to reflect on a moment of physical connection. It invites emotional engagement by prompting users to consider their feelings about that touch, making it personally compelling. The prompt encourages specificity and depth by asking for specific memories of physical connection, thus facilitating deep reflection. It is actionable, providing a clear scenario (recent moment of touch) for users to consider. The fit within the app context is good, as it encourages users to nurture their relationship through specific instances of gratitude. The tone is warm and encouraging, well-suited for a couples app setting.\n\nSuggestions: To enhance the fit within the app context, you could incorporate a mention of the virtual pet, for example, 'Think back to a recent moment when you felt truly connected to your partner through a simple touch, like a warm hug or holding hands while taking care of [pet's name]; how did it make you feel, and what does that moment say about your love for them?' This could tie the prompt more closely to the app's unique theme and purpose."
+  },
+  {
+    "love_language": "Physical Touch",
+    "prompt": "Think back to a recent moment when you shared an intimate embrace or gentle touch with your partner. How did that connection make you feel, and what specific comfort or joy did it bring you that you\u2019d like to thank them for?",
+    "scores": {
+      "love_language_alignment": 9,
+      "emotional_engagement": 8,
+      "specificity_depth": 8,
+      "actionability": 9,
+      "app_context_fit": 7,
+      "tone_appropriateness": 8
+    },
+    "overall_score": 8.166666666666666,
+    "feedback": "The prompt aligns well with the Physical Touch love language, inviting users to reflect on a recent tangible interaction. It encourages emotional engagement by focusing on personal feelings and specific instances of touch that brought comfort or joy. The prompt's specificity in asking about a 'recent moment' and the specific impact of the interaction helps deepen the reflection. It is straightforward and actionable, guiding users to share their feelings and gratitude for a memorable experience. However, while the warm and personal tone fits the couple-centric nature of ReCat, it slightly misses the playful and gamified context of the app\u2019s pet theme.\n\nSuggestions: To enhance context fit, consider tying the prompt to the virtual pet aspect of the app. For example, 'Think back to a recent moment when you shared an intimate embrace or gentle touch with your partner, much like how we comfort our virtual pet. How did that connection make you feel, and what specific comfort or joy did it bring you that you\u2019d like to thank them for?'"
+  },
+  {
+    "love_language": "Physical Touch",
+    "prompt": "Think of a recent moment when you felt a deep connection through a simple touch, like a warm hug or holding hands; how did that make you feel? Share your gratitude for that comforting moment and how it made you appreciate your partner even more.",
+    "scores": {
+      "love_language_alignment": 9,
+      "emotional_engagement": 8,
+      "specificity_depth": 7,
+      "actionability": 8,
+      "app_context_fit": 8,
+      "tone_appropriateness": 9
+    },
+    "overall_score": 8.166666666666666,
+    "feedback": "The prompt does a good job of aligning with the love language of Physical Touch by focusing on a recent moment connected through touch, such as a hug or holding hands. It encourages users to reflect on the emotional aspect of these interactions, which aligns well with fostering gratitude. The prompt is emotionally engaging, encouraging participants to delve into their feelings about such moments, although it might benefit from prompting them to share a specific memory to increase depth. It fits well within the app's context, being actionable with a clear directive to express gratitude. The tone is appropriate for the app, friendly and warm, inviting partners to reflect with fondness.\n\nSuggestions: To improve specificity and depth, the prompt could be enhanced by suggesting users recall a very specific instance, such as 'a recent hug when you were feeling down' or 'holding hands while on a special walk.' This could further deepen the reflection and make the gratitude note more vivid and personal."
+  }
+]
