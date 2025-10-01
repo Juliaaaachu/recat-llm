@@ -1,61 +1,11 @@
-from openai import OpenAI
-import os
-from dotenv import load_dotenv 
 import json
+import prompts
+from RecatGPT import RecatGPT
 
-load_dotenv() 
-
-OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
-
-def load_memory_prompt(id):
-    with open("memory_prompt.json", "r") as f:
-        prompts = json.load(f)
-    return prompts.get(id, "")
-
-GO_DEEPER_PROMPT = """
-The user wishes to go deeper with the response.
-Come up with a question that helps the user to write a deeper response.
-Here is the user's response: 
-
-"""
-
-# Initialize the client
-client = OpenAI(api_key=OPENAI_API_KEY)
-
-def ask_gpt(prompt: str) -> str:
-    """
-    Send a prompt to GPT and return the response.
-    """
-    response = client.chat.completions.create(
-        model="gpt-4.1-mini",  # You can also use gpt-4.1, gpt-4o, etc.
-        messages=[
-            {"role": "system", "content": "You are a helpful assistant."},
-            {"role": "user", "content": prompt}
-        ]
-    )
-    return response.choices[0].message.content
-
-def get_prompt_for_gpt(love_language_type):
-
-    if love_language_type == 1:
-        love_language = "Words of Affirmation"
-    elif love_language_type == 2:
-        love_language = "Quality Time"
-    elif love_language_type == 3:
-        love_language = "Receiving Gifts"
-    elif love_language_type == 4:
-        love_language = "Acts of Service"
-    elif love_language_type == 5:
-        love_language = "Physical Touch"
-    else:
-        print("Choose a valid option.")
-        return
-    
-    return load_memory_prompt("1") + love_language
 
 def go_deeper(response):
-    new_prompt = GO_DEEPER_PROMPT + response
-    answer = ask_gpt(new_prompt)
+    new_prompt = prompts.GO_DEEPER_PROMPT + response
+    answer = RecatGPT.ask_gpt(new_prompt)
     print("\n", answer)
 
 if __name__ == "__main__":
@@ -80,9 +30,13 @@ if __name__ == "__main__":
             print("Please enter a valid number.")
             continue
 
-        gpt_prompt = get_prompt_for_gpt(user_input)
-        answer = ask_gpt(gpt_prompt)
-        print("\n", answer)
+        gpt_prompt = RecatGPT.get_love_language_prompt(user_input)
+        love_prompt = RecatGPT.ask_gpt(gpt_prompt)
+        print("Love Prompt: ", love_prompt)
+
+        new_love_prompt = RecatGPT.rewrite_prompt(love_prompt)
+
+        print("\n Rewrite Love Prompt: ", new_love_prompt)
 
         user_response = input("Type your response: ")
         user_responses = [user_response]

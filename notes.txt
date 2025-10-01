@@ -7,3 +7,46 @@ First Iteration:
 - Personal Evaluation:
     - Sentences are too long - the key is to help them "recollect" that specific memory. Felt like we don't have to say "express your gratitude" since that will be already given in the UI of the app 
     - "recent moments" still sound vague. Might need to provide some examples on how do we actually elicit certain moments and memories. Perhaps through examples? more situated contexts? the five senses?
+
+
+- Next Steps:
+    - goal: for users to associated certain memory that relates to the love languages, rather than actually giving them an entire "question" to answer - aka, no "can you express your gratitude" part 
+    - give initial comversation starters, "think about a time"... + for each love language, we "humanly" created 5 conversation starters - (specific scenarios for users) 
+
+    - Scoring Rubric per question (goal is for them to be mutually exclusive..potentially ): 
+        - How easy is it to recollect a specific memory? (Opposite of vague/generic)
+        - Is the tone of the prompt heartfelt, warm, and a bit quirky? 
+        - How easy is it to actually link to expressing gratitude? 
+        - How interesting / creative / fun is the prompt? (likeability)
+        - How relatable / personal is this prompt? 
+        - how relatable it is to the actual love language. 
+
+    - Mext Steps: LLM as Judge, use this criteria instead. 
+
+   - Scoring Rubric/success for prompt banks:
+        - sound differently in terms of language / writing style 
+        - variance in the scenario
+        - "rewrite" it so it doesn't sound the same everyday "think about a time" "remind a moment when"
+
+        
+    -what are the different parameters of these conversation starters -> maps to the different parameters of the gratitude that people write 
+        - systematically how these prompts correlate with what people write in terms of:
+           
+          - for all prompt
+            -  
+
+          - per questions 
+            - how many times it's skipped 
+            - how many it appears 
+        
+          - per users
+            - frequency of gratitude 
+
+          - per gratitude note:
+            - sentence length 
+
+- Evaluation: 
+       - somehow chatgpt prompts likes night time , + add 'and' in the scenario 
+       - force it to start with "think about a time" and "remember when"
+       - sometimes it get stuck in returning the same response,  => append generated prompt that we approved to the database each time it gets generated 
+       - "your partner" = name of the actual user profile

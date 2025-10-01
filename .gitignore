@@ -1,3 +1,4 @@
 .env
 
 recat
+__pycache__

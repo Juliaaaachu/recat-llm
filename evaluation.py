@@ -1,16 +1,10 @@
-from openai import OpenAI
-import os
 import json
-from dotenv import load_dotenv
 from typing import List, Dict, Any
 from dataclasses import dataclass
 import statistics
 import json
-
-load_dotenv()
-
-OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
-client = OpenAI(api_key=OPENAI_API_KEY)
+import prompts
+from RecatGPT import RecatGPT
 
 @dataclass
 class EvaluationResult:
@@ -19,47 +13,6 @@ class EvaluationResult:
     scores: Dict[str, float]
     feedback: str
     overall_score: float
-
-
-def load_memory_prompt(id):
-    with open("memory_prompt.json", "r") as f:
-        prompts = json.load(f)
-    return prompts.get(id, "")
-
-PROMPT = load_memory_prompt("1")
-
-# Judge prompt for evaluation
-JUDGE_PROMPT = """
-You are an expert evaluator of relationship communication prompts. Your task is to evaluate gratitude prompts designed for a couples app called ReCat.
-
-Context: ReCat is a gamified couples app where partners write thank-you notes to nurture their relationship and care for a virtual pet together. The prompts should inspire meaningful gratitude based on the five love languages.
-
-Evaluate the following gratitude prompt on these criteria (score 1-10 for each):
-
-1. **Love Language Alignment** (1-10): How well does the prompt specifically address the given love language?
-2. **Emotional Engagement** (1-10): Does the prompt feel warm, personal, and emotionally compelling?
-3. **Specificity & Depth** (1-10): Does it encourage specific memories and deep reflection rather than generic responses?
-4. **Actionability** (1-10): How clear and actionable is the prompt for users?
-5. **App Context Fit** (1-10): How well does it fit the gamified, pet-caring, couples app context?
-6. **Tone Appropriateness** (1-10): Is the tone warm, encouraging, and friend-like as specified?
-
-**Love Language**: {love_language}
-**Prompt to Evaluate**: "{prompt}"
-
-Provide your evaluation in this exact JSON format:
-{{
-    "love_language_alignment": <score>,
-    "emotional_engagement": <score>,
-    "specificity_depth": <score>,
-    "actionability": <score>,
-    "app_context_fit": <score>,
-    "tone_appropriateness": <score>,
-    "overall_feedback": "<detailed feedback explaining strengths and areas for improvement>",
-    "suggestions": "<specific suggestions for improvement>"
-}}
-
-DO NOT include any ``` or json formatting in your response. Only return the JSON object.
-"""
 
 # Test cases for different love languages
 TEST_CASES = [
@@ -70,42 +23,15 @@ TEST_CASES = [
     {"love_language": "Physical Touch", "type": 5},
 ]
 
-
-def ask_gpt(prompt: str, model: str = "gpt-4o-mini") -> str:
-    """Send a prompt to GPT and return the response."""
-    response = client.chat.completions.create(
-        model=model,
-        messages=[
-            {"role": "system", "content": "You are a helpful assistant."},
-            {"role": "user", "content": prompt}
-        ]
-    )
-    return response.choices[0].message.content
-
-def get_prompt_for_gpt(love_language_type: int) -> str:
-    """Generate the full prompt for a given love language type."""
-    love_languages = {
-        1: "Words of Affirmation",
-        2: "Quality Time", 
-        3: "Receiving Gifts",
-        4: "Acts of Service",
-        5: "Physical Touch"
-    }
-    
-    if love_language_type not in love_languages:
-        raise ValueError("Invalid love language type")
-    
-    return PROMPT + love_languages[love_language_type]
-
 def evaluate_prompt(love_language: str, prompt: str) -> EvaluationResult:
     """Evaluate a single prompt using the LLM judge."""
-    judge_prompt = JUDGE_PROMPT.format(
+    judge_prompt = prompts.JUDGE_PROMPT.format(
         love_language=love_language,
         prompt=prompt
     )
 
     try:
-        evaluation_response = ask_gpt(judge_prompt, model="gpt-4o")
+        evaluation_response = RecatGPT.ask_gpt(judge_prompt, model="gpt-4o")
         
         # Parse JSON response
         eval_data = json.loads(evaluation_response)
@@ -148,8 +74,8 @@ def run_evaluation_suite(num_samples: int = 3) -> List[EvaluationResult]:
         
         for i in range(num_samples):
             # Generate prompt
-            gpt_prompt = get_prompt_for_gpt(test_case['type'])
-            generated_prompt = ask_gpt(gpt_prompt)
+            gpt_prompt = RecatGPT.get_love_language_prompt(test_case['type'])
+            generated_prompt = RecatGPT.ask_gpt(gpt_prompt)
             
             print(f"\nSample {i+1}:")
             print(f"Generated Prompt: {generated_prompt}")
