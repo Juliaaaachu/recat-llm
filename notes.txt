@@ -50,3 +50,23 @@ First Iteration:
        - force it to start with "think about a time" and "remember when"
        - sometimes it get stuck in returning the same response,  => append generated prompt that we approved to the database each time it gets generated 
        - "your partner" = name of the actual user profile
+
+- process:
+      - asking to generated
+      - different prompt generation
+      - few examples (few shots learning)
+      - examples, improved scenarios; but prompts look too similar to each other
+      - "rewrite" differently, 
+      - throws off and be romantic / poetic
+      - two step process: 
+      -   phase I: use this structure to create a prompt, but generate different scenario
+      -   phase II: rewrite the prompt so that the questions don't look so cookie cutter / similar in structure 
+
+      - Evaluation 
+        - human label existing prompts based on scoring Rubric
+        - update llm judge with new scoring Rubric
+        - score each new prompt
+      
+      - technical standpoint:
+        - nuance: two steps process, where does it go wrong; is it scenario that is bad or the rewrites
+        - judge: three rewrites per scenario, -> if 3 rewrites didn't cross threshold, indication that scneario is bad. 
